@@ -61,7 +61,7 @@ chmod +x install.sh
 
 ```bash
 sudo apt update
-sudo apt install conky-all lm-sensors xdotool playerctl
+sudo apt install conky-all lm-sensors xdotool
 ```
 
 ### Copy configuration files:
@@ -71,9 +71,8 @@ mkdir -p ~/.config/conky
 cp left.conf ~/.config/conky/
 cp right.conf ~/.config/conky/
 ```
----
 
-### Replace network interface inside configs:
+- Replace network interface inside configs:
 
 ### Check your interface:
 
@@ -82,8 +81,6 @@ ip route
 ```
 
 - Replace wlp2s0 in config files with your actual interface.
-
----
 
 ### Run manually:
 
@@ -124,7 +121,7 @@ ${cpugraph cpu0 45,260 00FFFF FF00FF}
 ```
 #### Format:
 
-START_COLOR END_COLOR
+- START_COLOR END_COLOR
 
 #### Example:
 
@@ -161,7 +158,7 @@ ls /sys/class/power_supply/
 
 ### Suitable Wallpaper:
 ![wall](screenshot&wallpaper/wallpaper1.png)
-![wall](screenshot&wallpaper/wallpaper2.png)
+![wall](screenshot&wallpaper/wallpaper2.jpg)
 ![wall](screenshot&wallpaper/wallpaper3.png)
 ![wall](screenshot&wallpaper/wallpaper4.png)
 ---
